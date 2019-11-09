@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	background: skyblue;
+}
+
+.yifu {
+	width: 100%;
+	height: 600px;
+	background: #007DDC;
+}
+.yejiao {
+	width: 100%;
+	height: 200px;
+	background: pink;
+}
