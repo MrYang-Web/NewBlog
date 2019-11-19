@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		#warp {
+			width: 100%;
+/* 			height: 225px; */
+			background: #DDDDDD;
+		}
+		#warp div {
+			width: 100px;
+			height: 100px;
+			background: red;
+/* 			margin: 10px; */
+		}
+		
+		#warp div:nth-child(2){
+			background: blue;
+		}
+		#warp div:nth-child(3){
+			background: pink;
+		}
+		.clearfloat {
+			clear: both;
+		}
+		
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="warp">
+		<div class="fr"></div>
+		<div class="fr"></div>
+		<div></div>
+	</div>
+</body>
+</html>

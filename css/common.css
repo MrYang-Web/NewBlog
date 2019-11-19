@@ -1,19 +1,24 @@
+/* 这些是通用样式 */
 * {
 	margin: 0;
 	padding: 0;
 }
-
-nav {
-	width: 100%;
-	height: 100px;
-	background: skyblue;
+ul{
+	list-style: none;
 }
-
 .fl{
 	float: left;
 }
 .fr{
 	float: right;
+}
+
+
+/* 这最上面导航的样式 */
+nav {
+	width: 100%;
+	height: 100px;
+	background: skyblue;
 }
 /* 这里的样式是LOGO */
 .logo-warp {
@@ -38,6 +43,29 @@ nav {
 .logo-text p {
 	color: #FFFFFF;
 }
+
+/* 这是导航区的样式 */
+.nav {
+	width: 21%;
+	height: 100px;
+	margin-left: 50px;
+}
+.nav ul li {
+	margin: 18px 20px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+/* 这是名片区的样式 */
+.card {
+	width: 316px;
+	height: 100px;
+	margin-right: 15%;
+	line-height: 100px;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
 
 
 
